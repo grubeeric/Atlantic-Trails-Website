@@ -1,0 +1,101 @@
+/*
+Assignment 5
+Eric Grube
+CIS 4004 Summer 2014
+Professor Llewellyn
+6/30/14
+This is the PHP css page
+*/
+
+*
+{
+
+}
+
+body
+{
+	background-image: url("images/php-background.jpg");
+	padding-top: 1%;
+}
+
+#content
+{
+	width: 95%;
+	height: 95%;
+	position: relative;
+	left: 2.5%;
+}
+
+header
+{
+	background-image: url("images/sunset.jpg");
+	background-size: cover;
+	color: WHITE;
+	font-size: 125%;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	line-height: normal;
+}
+
+header h1
+{
+	padding-left: 1%;
+}
+
+#mainContent
+{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-color: WHITE;
+}
+
+#mainContent h1
+{
+	color: #6D91C2;
+	position: relative;
+	left: 2%;
+}
+
+#mainContent h2
+{
+	color: BLUE;
+	position: relative;
+	left: 2%;
+}
+
+#mainContent form
+{
+	position: relative;
+	left: 2%;
+	top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

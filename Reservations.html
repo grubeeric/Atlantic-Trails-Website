@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!--
+Assignment 5
+Eric Grube
+CIS 4004 Summer 2014
+Professor Llewellyn
+6/30/14
+This is the reservations page
+-->
+
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	
+	<title>Atlantic Trails Resort</title>
+	
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+	<script type="text/javascript" src="assignment3.js"></script>
+
+</head>
+
+<body onload="startTime()">
+	
+	<div id = "content">
+	
+		<header>
+			<h1>Atlantic Trails Resort</h1>
+		</header>
+		
+		<div id = "nav">
+			<ul>
+
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "Accommodations.html">Accommodations</a></li>
+				<li><a href = "Activities.html">Activities</a></li>
+				<li><a href = "Reservations.html">Reservations</a></li>
+
+			</ul>
+		</div>
+		
+		<div id = "mainContent">
+		
+			<h2>Reservations at Atlantic Trails</h2>
+			
+			<div id = "reservations">
+				<h3>Contact Us Today!</h3>
+					<p>
+						Required fields are marked with an asterisk *
+					</p>
+				
+				<form name = "theform" action = "reservation-page.php" method = "get">
+				
+					<table>
+						<tr>
+							<td>*First Name:</td>
+							<td><input type="text" id = "r1" name="first" /></td>		 							
+							</tr>
+						<tr>
+							<td>*Last Name:</td>
+							<td><input type="text" id = "r2" name="last" /></td>
+						</tr>
+						<tr>
+							<td>*Email:</td>
+							<td><input type="text" id = "s1" name="email" /></td>
+						</tr>
+						<tr>
+							<td>Phone:</td>
+							<td><input type="text" name="phone" /></td>
+						</tr>
+						<tr>
+							<td>Arrival Date:</td>
+							<td><input type="date" name="arrival" /></td>
+						</tr>
+						<tr>
+							<td>Nights:</td>
+							<td><input type = "number" name = "nights" min="1" max="30"/></td>
+						</tr>
+						<tr>
+							<td>*Comments:</td>
+							<td><textarea id = "c1" name="comments" rows = "5" cols = "30" ></textarea></td>
+						</tr>
+					</table>
+					
+					<input type="submit" id="btnSignUp" value="Submit" onclick = "location.href = 'reservation-page.php'"/>
+					
+				</form>	
+				
+				<p>
+					<strong>Atlantic Trails Resort</strong> <br>
+						1210 Atlantic Trails Way <br>
+						Andover, Maine 04226 <br>
+						<br>
+						888-555-5555
+				</p>
+			</div>
+
+			
+			<div id = "theFooter">
+				<p>
+					<br>
+					<br>
+					<br>
+					Copyright &#169; 2014 Atlantic Trails Resort
+					<br>
+					<a href="mailto:eric@grube.com">eric@grube.com</a>
+				</p>
+				<p id = "time"></p>
+			</div>
+		
+		</div>
+		
+		<div id = "extraHomeReservations">
+		
+		</div>
+		
+	</div>	
+
+</body>
+
+</html>

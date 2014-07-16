@@ -1,0 +1,393 @@
+/*
+Assignment 5
+Eric Grube
+CIS 4004 Summer 2014
+Professor Llewellyn
+6/30/14
+This is the main stylesheet page
+*/
+
+*
+{
+	text-align: justify;
+}
+
+body
+{
+	background-image: url("images/background.jpg");
+	padding-top: 1%;
+}
+
+#content
+{
+	width: 95%;
+	height: 95%;
+	position: relative;
+	left: 2.5%;
+}
+
+header
+{
+	background-image: url("images/sunset.jpg");
+	background-size: cover;
+	color: WHITE;
+	font-size: 125%;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	line-height: normal;
+}
+
+header h1
+{
+	padding-left: 1%;
+}
+
+#nav
+{
+	width: 20%;
+	background-color: #7DD7F0;
+	position: relative;
+	padding-bottom: 380px;
+	margin-top: -30px;
+}
+
+#nav ul
+{
+	list-style: none;
+	right: 5%;
+	position: relative;
+	padding-top: 5%;
+	font-size: x-large;
+}
+
+#nav ul a
+{
+	text-decoration: none;
+}
+
+#nav ul a:link
+{
+	color: #3192AD;
+}
+
+#nav ul a:visited
+{
+	color: #3192AD;
+}
+
+#nav ul a:hover
+{
+	color: #2047B3;
+}
+
+#nav ul a:active
+{
+	color: #2047B3;
+}
+
+#extraHome
+{
+	position: relative;
+	width: 20%;
+	height: 100px;
+	background-color: #7DD7F0;
+	margin-top: -100px;
+}
+
+#extraHomeAccommodations
+{
+	position: relative;
+	width: 20%;
+	height: 355px;
+	background-color: #7DD7F0;
+	margin-top: -355px;
+}
+
+#extraHomeActivities
+{
+	position: relative;
+	width: 20%;
+	height: 800px;
+	background-color: #7DD7F0;
+	margin-top: -800px;
+}
+
+#extraHomeReservations
+{
+	position: relative;
+	width: 20%;
+	height: 280px;
+	background-color: #7DD7F0;
+	margin-top: -280px;
+}
+
+#mainContent
+{
+	position: relative;
+	width: 80%;
+	background-color: WHITE;
+	margin-left: 20%;
+	margin-top: -545px;;
+	padding-bottom: 7.70%;
+	color: #6D91C2;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#mainContent h2
+{
+	color: #6D91C2;
+	position: relative;
+	left: 2.5%;
+	padding-top: 2.5%;
+}
+
+#mainContent h3
+{
+	color: #000099;
+}
+
+#mainContent img
+{
+	position: relative;
+	left: 2.5%;
+}
+
+#text
+{
+	position: relative;
+	color: #6D91C2;
+	width: 60%;
+	margin-left: 37%;
+	margin-top: -26%;
+	text-align: justify;
+	list-style-image: url(images/marker.gif);
+}
+
+#text h3
+{
+	color: #000099;
+}
+
+#text ul li
+{
+	
+}
+
+#textBelow
+{
+	position: relative;
+	width: 95%;
+	color: #6D91C2;
+	text-align: justify;
+	left: 2.5%;
+}
+
+#textBelow h3
+{
+	color: #000099;
+}
+
+#theFooter
+{
+	color: GREY;
+	position: relative;
+	left: 2.5%;
+}
+
+#mainContentAccommodations
+{
+	position: relative;
+	width: 80%;
+	background-color: WHITE;
+	margin-left: 20%;
+	margin-top: -545px;
+	padding-bottom: 7.70%;
+}
+
+#mainContentAccommodations img
+{
+	position: relative;
+	left: 2.5%;
+}
+
+#mainContentAccommodations h2
+{
+	color: #6D91C2;
+	position: relative;
+	left: 2.5%;
+	padding-top: 2.5%;
+}
+
+#textBelow table
+{
+	margin: auto;
+	position: relative;
+	width: 75%;
+	border: 1px solid #00FFCC;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#textBelow table td
+{
+	border: 1px solid #00FFCC;
+	text-align: center;
+}
+
+#textBelow table tr
+{
+	border: 1px solid #00FFCC;
+	text-align: center;
+}
+
+table a
+{
+	color: RED;
+}
+
+#hikingTable
+{
+	margin: auto;
+	position: relative;
+	color: GREY;
+	width: 120%;
+	border: 2px solid #00FFCC;
+	text-align: center;
+	border-collapse: collapse;
+	margin-top: 150px;
+	margin-left: -250px;
+}
+
+#hikingTable td
+{
+	border: 1px solid #00FFCC;
+	text-align: center;
+}
+
+#hikingTable tr
+{
+	border: 1px solid #00FFCC;
+	text-align: center;
+}
+
+#kayakingTable
+{
+	margin: auto;
+	position: relative;
+	color: GREY;
+	width: 75%;
+	border: 2px solid #00FFCC;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#kayakingTable td
+{
+	border: 1px solid #00FFCC;
+	text-align: center;
+}
+
+#kayakingTable tr
+{
+	border: 1px solid #00FFCC;
+	text-align: center;
+}
+
+#kayakingTable a
+{
+	color: BLUE;
+}
+
+#birdTable
+{
+	margin: auto;
+	position: relative;
+	color: GREY;
+	width: 75%;
+	border: 2px solid #00FFCC;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#birdTable td
+{
+	border: 1px solid #00FFCC;
+	text-align: center;
+}
+
+#birdTable tr
+{
+	border: 1px solid #00FFCC;
+	text-align: center;
+}
+
+#reservations
+{
+	position: relative;
+	color: GREY;
+	width: 95%;
+	left: 2.5%;
+}
+
+#reservations h3
+{
+	color: #000099;
+}
+
+#reservations form
+{
+	text-indent: 2.5em;
+}
+
+#reservations strong
+{
+	color: #000099;
+}
+
+.first
+{
+	background-color: BLACK;
+	color: WHITE;
+}
+
+.odd
+{
+	color: BLUE;
+	background-color: #E0E0D1;
+} 
+
+.odd:hover
+{
+	background-color: YELLOW;
+}
+
+.even
+{
+	background-color: BLUE;
+	color: #FFCC00;
+} 
+
+.even:hover
+{
+	background-color: YELLOW;
+	color: BLACK;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

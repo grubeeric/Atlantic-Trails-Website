@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<!--
+Assignment 5
+Eric Grube
+CIS 4004 Summer 2014
+Professor Llewellyn
+6/30/14
+This is the activities page
+-->
+
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	
+	<title>Atlantic Trails Resort</title>
+	
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+	<script type="text/javascript" src="assignment3.js"></script>
+
+</head>
+
+<body onload="startTime(), alternate('hikingTable'), alternate('birdTable')">
+	
+	<div id = "content">
+	
+		<header>
+			<h1>Atlantic Trails Resort</h1>
+		</header>
+		
+		<div id = "nav">
+			<ul>
+
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "Accommodations.html">Accommodations</a></li>
+				<li><a href = "Activities.html">Activities</a></li>
+				<li><a href = "Reservations.html">Reservations</a></li>
+
+			</ul>
+		</div>
+		
+		<div id = "mainContent">
+		
+			<h2>Activities at Atlantic Trails</h2>
+			
+			<img src = "images/trail.jpg" alt = "trail">
+			
+			<div id = "text">
+				<h3>Hiking</h3>
+					<p>Atlantic Trails Resort has 5 miles of hiking 
+					trails and is adjacent to a state park. Go at it 
+					alone or join one of our guided hikes. The table below
+					lists some of our guided hikes and their departure times
+					from the main office. Sign-up in the office for any or all of
+					the hikes during your stay at Atlantic Trails. Our guides will point 
+					out many interesting features and landmarks during you hike.
+					</p>
+					
+				<table id = "hikingTable" class = "stripe_table">
+					<tr>
+						<td><strong>Tour Start Time</strong></td>
+						<td><strong>Description</strong></td>
+						<td><strong>Guide</strong></td>
+						<td><strong>Time</strong></td>
+					</tr>
+					<tr>
+						<td>6:00 am</td>
+						<td>2 mile hike on the upper ridge - watch the sun rise.</td>
+						<td><a href>Stephanie</a></td>
+						<td>2 hours</td>
+					</tr>
+					<tr>
+						<td>8:00 am</td>
+						<td>4 mile hike in the state park. Transportation leaves from the main office.</td>
+						<td><a href>Roger</a></td>
+						<td>3 hours</td>
+					</tr>
+					<tr>
+						<td>1:00 pm</td>
+						<td>6 mile hike over the full trail and the beach head. Some light climbing.</td>
+						<td><a href>Stephanie</a> or <a href>Heidi</a></td>
+						<td>4.5 hours</td>
+					</tr>
+				</table>
+				
+				</div>
+				
+				<h3>Kayaking</h3>
+					<p>
+						Ocean kayaks are available for guest use. The table
+						provides a summary of out kayaks. Be sure of your kayaking
+						skills. Check the links to identify your skill level. If you have any 
+						questions, please contact Dave in the main office.
+					</p>
+					
+				<table id = "kayakingTable">
+					<tr>
+						<td><strong>Kayak Type</strong></td>
+						<td><strong>Description</strong></td>
+						<td><strong>Skill Level</strong></td>
+					</tr>
+					<tr>
+						<td>Sea</td>
+						<td>Long, flat bottom, cargo area for your personal effects.</td>
+						<td><a href>Low to moderate.</a></td>
+					</tr>
+					<tr>
+						<td>Surf</td>
+						<td>Shorter, more manuverable than sea kayak.</td>
+						<td><a href>Moderate to high</a></td>
+					</tr>
+					<tr>
+						<td>White Water</td>
+						<td>Very short, rounded hull, very robust. Highly manuverable.</td>
+						<td><a href>Expert</a></td>
+					</tr>
+				</table>
+				
+				<h3>Bird Watching</h3>
+					<p>
+						While anytime is a good time for bird watching at
+						Atlantic Trails, we offer guided birdwatching trips 
+						at sunrise several times a week. The table below
+						lists some of these trips. See the main office for 
+						more details.
+					</p>
+				
+				<table id = "birdTable" class = "stripe_table">
+					<tr>
+						<td><strong>Tour Start Time</strong></td>
+						<td><strong>Description</strong></td>
+						<td><strong>Commonly Seen Birds</strong></td>
+						<td><strong>Guide</strong></td>
+					</tr>
+					<tr>
+						<td>5:30 am Tuesdays Only- September thru November</td>
+						<td>1.5 mile hike on the upper ridge. Lasts about 1 hour</td>
+						<td><a href>Green Herons, </a><a href>Northern Harriers, </a><a href>Ospreys</a></td>
+						<td><a href>Stephanie</a></td>
+					</tr>
+					<tr>
+						<td>6:00 am Saturday and Sunday Only - March thru June</td>
+						<td>3 mile hike on the beach. Lasts about 2 hours</td>
+						<td><a href>Cormorants, </a><a href>Canadian Geese, </a><a href>Least Sandpiper</a></td>
+						<td><a href>Heidi</a></td>
+					</tr>
+					<tr>
+						<td>5:30 am Thursdays Only - June thru August</td>
+						<td>3 mile hike in the State Park. Some light climbing.</td>
+						<td><a href>Lesser Yellowlegs, </a><a href>Willet, </a><a href>Black-bellied Plover</a></td>
+						<td><a href>Stephanie</a> or <a href>Heidi</a></td>
+					</tr>
+				</table>
+			
+			<div id = "theFooter">
+				<p>
+					<br>
+					<br>
+					<br>
+					Copyright &#169; 2014 Atlantic Trails Resort
+					<br>
+					<a href="mailto:eric@grube.com">eric@grube.com</a>
+				</p>
+				<p id = "time"></p>
+			</div>
+		
+		</div>
+		
+		<div id = "extraHomeActivities">
+		
+		</div>
+		
+	</div>	
+
+</body>
+
+</html>
